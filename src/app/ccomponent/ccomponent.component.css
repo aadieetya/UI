@@ -1,0 +1,88 @@
+/* .matcard{
+    width: 60%;
+    border-style: none;
+    background-color: rgba(158, 154, 154, 0.747);
+    display: inline-block; 
+}
+.textbox{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    float: left;
+    border-style: hidden;
+}
+
+.h4{
+    text-decoration: none;
+    text-align: bottom;
+    color: white;
+}
+
+}
+.heading{
+    background-color: rgba(88, 179, 207, 0.849);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    
+}
+}
+.section2{
+    display: flex;
+    justify-content: flex-start;
+}
+.upperbuttons{
+    display: flex;
+    justify-content: flex-end ;
+    float: right;
+}
+.centercomponent{
+    justify-content: center;
+} */
+/* 
+.wicon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.bottomdiv, .upperdiv{
+    border-style: hidden;
+    background-color: white;
+    padding-top: 10px;
+    width: 150%;
+    justify-content: center;
+    height: max-content;
+}
+.bottomdesign, .heading{
+    background-color: rgba(88, 179, 207, 0.849);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.bottombuttons, .upperbuttons{
+    display: flex;
+    justify-content: flex-end ;
+    float: right;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end ;   
+}
+/* .maindiv{
+    height: 200%;
+} */
+/* .cards{
+    width: auto;
+} */
+.wtext{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    
+}
+.newfield{
+    border-style: dashed;
+    border-color: rgba(179, 175, 175, 0.521);
+    justify-content: center;
+}

@@ -1,0 +1,66 @@
+<div class="maindiv">
+  <div class="upperdiv">
+    <div
+      class="heading rounded d-flex justify-content-between mt-4 p-3 mb-2 bg-primary text-white">
+      <span class="material-icons"> drag_indicator </span>
+      <label>Untitled Section 1</label>
+      <div class="upperbuttons">
+        <span class="material-icons"> delete </span>
+        <span class="material-icons ms-1"> edit </span>
+        <span class="material-icons ms-1"> arrow_upward </span>
+        <span class="material-icons ms-1"> arrow_downward </span>
+      </div>
+    </div>
+    <br />
+    <div class="cards d-flex justify-content-between" *ngFor="let card of cards">
+      <p>
+        <mat-form-field appearance="outline">
+          <mat-label>{{card.text}}</mat-label>
+          <input matInput placeholder="Please Enter Text..." />
+          </mat-form-field>
+      <span class="material-icons"> {{card.icon1}} </span>
+      <span class="material-icons"> {{card.icon2}} </span>
+      <span class="material-icons"> {{card.icon3}}</span>
+      <span class="material-icons"> {{card.icon4}} </span>
+      </p>
+    </div>
+    <!-- <mat-card class="matcard"> -->
+    <!-- <input type="text" placeholder="Enter Text Here..." class="textbox" />
+        <div class="buttons">
+          <span class="material-icons"> delete </span>
+          <span class="material-icons"> edit </span>
+          <span class="material-icons"> arrow_upward </span>
+          <span class="material-icons"> arrow_downward </span>
+        </div> </mat-card
+      ><br /> -->
+    <!-- <mat-card class="matcard">
+        <input type="text" placeholder="Enter Text Here..." class="textbox" />
+        <div class="buttons">
+          <span class="material-icons"> delete </span>
+          <span class="material-icons"> edit </span>
+          <span class="material-icons"> arrow_upward </span>
+          <span class="material-icons"> arrow_downward </span>
+        </div> </mat-card
+      ><br /> -->
+    <!-- </div> -->
+
+
+      <mat-card class="matcard1 d-flex justify-content-between mt-4 p-3 mb-2 bg-primary text-white">
+                  <span class="material-icons"> drag_indicator </span>
+                  <label>Untitled Section 2</label>
+          <div class="bottombuttons">
+            <span class="material-icons"> delete </span>
+            <span class="material-icons"> edit </span>
+            <span class="material-icons"> arrow_upward </span>
+            <span class="material-icons"> arrow_downward </span>
+          </div><br>  
+        </mat-card>
+        <div class="newfield rounded">
+          <span class="material-icons d-flex justify-content-center py-5"> widgets </span> <br />
+          <p class="wtext d-flex justify-content-center">
+            <code>+Add new fields</code> &nbsp; or Drag and Drop
+          </p>
+        </div>
+    </div>
+  </div>
+
